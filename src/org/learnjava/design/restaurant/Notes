@@ -1,0 +1,46 @@
+=================================================
+Restaurant
+-------------------------------------------------
+Design a Restaurant
+=================================================
+
+=================================================
+Assumptions: 
+------------------------------------------------
+
+=================================================
+
+=================================================
+Core Objects
+------------------------------------------------
+	Table
+	Guest
+	Party
+	Order
+	Meal
+	Employee
+	Server
+	Host
+	Restaurant
+	
+=================================================
+
+=================================================
+Relationships
+------------------------------------------------
+	Party should have any number of Guests.
+	Server and Host inherit from Employee.
+	Each Table has one Party, but each Party may have multiple Tables.
+	There is one Host for the Restaurant.
+=================================================
+
+=================================================
+Actions
+------------------------------------------------
+	Party walks into the Restaurant
+	Guest requests a Table from the Host
+	Host looks up the Reservation
+		if exists, assigns the Party to a Table
+			the Party is added to the end of the list
+	Party leaves, the Table is freed and assigned to a new Party
+=================================================
