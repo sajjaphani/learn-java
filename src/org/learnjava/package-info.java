@@ -1,5 +1,5 @@
 /**
- * This package and its sub-packages contains some java examples.
+ * This package and its sub-packages contains some Java examples.
  * 
  * @author psajja
  *
