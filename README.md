@@ -15,11 +15,13 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 
 ## Some Examples
 
-To be filled
+This section contains few examples.
 
 ### Binary Heap
 
-To  be filled
+In Java, PriorityQueue is based on Min Heap. To make it a Max Heap we can provide a custom comparator, where we simply can reverse the order of comparision.
+
+See [Binary Heap Example](/src/org/learnjava/BinaryHeapExample.java) for more details.
 
 ## Java 7 Features
 
@@ -36,4 +38,3 @@ To be filled
 ## Object Design
 
 To be filled
-
