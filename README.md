@@ -17,6 +17,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Locks](#locks)
 	- [Callable](#callable)
 	- [Uncaught Exception Handler](#uncaught-exception-handler)
+	- [Synchronous Queue](#synchronous-queue)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -76,6 +77,12 @@ This [example](/src/org/learnjava/concurrent/CallableExample.java) contains the 
 An [UncaughtExceptionHandler](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.UncaughtExceptionHandler.html) can be configured to be invoked when a Thread abruptly terminates due to an uncaught exception.
 
 This [example](/src/org/learnjava/concurrent/UncaughtExceptionHandlerTest.java) describes different ways to configure the uncaught exception handler.
+
+### Synchronous Queue
+
+A [SynchronousQueue](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/SynchronousQueue.html) is a blocking queue in which each insert operation must wait for a corresponding remove operation by another thread, and vice versa.
+
+This [example](/src/org/learnjava/concurrent/SynchronousQueueExample.java) uses a synchronous queue for solving producer consumer problem.
 
 ## Object Design
 
