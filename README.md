@@ -22,6 +22,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Synchronizers](#synchronizers)
 		- [Semaphore](#semaphore)
 		- [Count Down Latch](#count-down-latch)
+		- [Cyclic Barrier](#cyclic-barrier)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -110,7 +111,11 @@ This [example](/src/org/learnjava/concurrent/SemaphoreExample.java) demonstrates
 
 This [example](/src/org/learnjava/concurrent/CountDownLatchExample.java) demonstrates the use of CountDownLatch.
 
-#### CyclicBarrier
+#### Cyclic Barrier
+
+[CyclicBarrier](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CyclicBarrier.html) is a synchronization aid that allows a set of threads to all wait for each other to reach a common barrier point. 
+
+This [example](/src/org/learnjava/concurrent/CyclicBarrierExample.java) demonstrates the use of CyclicBarrier.
 
 #### Exchanger
 
