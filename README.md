@@ -16,6 +16,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Synchronization](#synchronization)
 	- [Locks](#locks)
 	- [Callable](#callable)
+	- [UncaughtExceptionHandler](#uncaught-exception-handler)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -66,9 +67,15 @@ This [example](/src/org/learnjava/concurrent/LockCounterExample.java) shows the 
 
 ### Callable
 
-A [Callable](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Callable.html) task can return a result and may throw an exception. 
+A [Callable](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Callable.html) task that returns a result and may throw an exception. 
 
 This [example](/src/org/learnjava/concurrent/CallableExample.java) contains the usage of Callable which returns a result upon completion.
+
+### UncaughtExceptionHandler
+
+An [UncaughtExceptionHandler](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.UncaughtExceptionHandler.html) can be configured to be invoked when a Thread abruptly terminates due to an uncaught exception.
+
+This [example](/src/org/learnjava/concurrent/UncaughtExceptionHandlerTest.java) describes different ways to configure the uncaught exception handler.
 
 ## Object Design
 
