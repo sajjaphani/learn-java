@@ -13,8 +13,8 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 - [Java 8 Features](#java8-features)
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
-	- [Synchronization] (#synchronization)
-- [Object Design](#objecdt-design)
+	- [Synchronization](#synchronization)
+- [Object Design](#object-design)
 
 ## Some Examples
 
