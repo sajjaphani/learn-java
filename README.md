@@ -18,6 +18,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Callable](#callable)
 	- [Uncaught Exception Handler](#uncaught-exception-handler)
 	- [Synchronous Queue](#synchronous-queue)
+	- [Transfer Queue](#transfer-queue)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -83,6 +84,12 @@ This [example](/src/org/learnjava/concurrent/UncaughtExceptionHandlerTest.java) 
 A [SynchronousQueue](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/SynchronousQueue.html) is a blocking queue in which each insert operation must wait for a corresponding remove operation by another thread, and vice versa.
 
 This [example](/src/org/learnjava/concurrent/SynchronousQueueExample.java) uses a synchronous queue for solving producer consumer problem.
+
+### Transfer Queue
+
+A [TransferQueue](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/TransferQueue.html) is a blocking queue in which producers may wait for consumers to consume elements.
+
+This [example](/src/org/learnjava/concurrent/TransferQueueExample.java) uses a transfer queue for solving producer consumer problem.
 
 ## Object Design
 
