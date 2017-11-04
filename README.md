@@ -20,6 +20,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Synchronous Queue](#synchronous-queue)
 	- [Transfer Queue](#transfer-queue)
 	- [Synchronizers](#synchronizers)
+		- [Semaphore](#semaphore)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -98,6 +99,10 @@ Java provides five classes for dealing with common special-purpose synchronizati
 
 #### Semaphore
 
+[Semaphores](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Semaphore.html) often known as counting semaphore. A semaphore maintains a set of permits. Semaphores are often used to restrict the number of threads than can access some (physical or logical) resource.
+
+This [example](/src/org/learnjava/concurrent/SemaphoreExample.java) demonstrates the use of Semaphores.
+
 #### CountDownLatch
 
 #### CyclicBarrier
@@ -105,7 +110,6 @@ Java provides five classes for dealing with common special-purpose synchronizati
 #### Exchanger
 
 #### Phaser
-
 ## Object Design
 
 To be filled
