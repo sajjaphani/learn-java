@@ -16,8 +16,7 @@ public class BitManipulationExample {
 		System.out.println("Given number: " + number);
 
 		// In an arithmetic right shift, the sign bit is extended to preserve
-		// the sign
-		// of the number.
+		// the sign of the number.
 		System.out.println("Arithmatic Right Shift (divides by 2): " + (number >> 1));
 
 		// Logical right shift simply moves everything to the right and fills in
@@ -34,9 +33,9 @@ public class BitManipulationExample {
 		System.out.println(Integer.toBinaryString(b1));
 
 		System.out.println();
-		System.out.println("5th bit in 32 is set: " + hasBitSet(32, 5));
+		System.out.println("Is 5th bit in 32 is set?: " + hasBitSet(32, 5));
 		System.out.println("Set 6th bit in 32: " + setBit(32, 6));
-		System.out.println("Clear 6th bit in 96: " + clearBit(96, 6));
+		System.out.println("Clear 6th bit from value 96: " + clearBit(96, 6));
 	}
 
 	/**
@@ -75,7 +74,7 @@ public class BitManipulationExample {
 	 * @param number
 	 *            given number
 	 * @param pos
-	 *            positioin to clear
+	 *            position to clear
 	 * 
 	 * @return the number after clearing the bit
 	 */

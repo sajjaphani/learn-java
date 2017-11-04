@@ -7,7 +7,8 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 ## Table of Contents
 
 - [Some Examples](#some-examples)
-	- [Binary Heap](#binaryheap)
+	- [Binary Heap](#binary-heap)
+	- [Bit Manipulation](#bit-manipulation)
 - [Java 7 Features](#java7-features)
 - [Java 8 Features](#java8-features)
 - [Concurrency](#concurrency)
@@ -23,6 +24,12 @@ In Java, PriorityQueue is based on Min Heap. To make it a Max Heap we can provid
 
 See [Binary Heap Example](/src/org/learnjava/BinaryHeapExample.java) for more details.
 
+### Bit Manipulation
+
+[Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation) involves operating on the specific bits of a data, typically numbers.
+
+See [Bit Manipulation Example](/src/org/learnjava/BitManipulationExample.java) for commonly useful operations on bits.
+	
 ## Java 7 Features
 
 To be filled
