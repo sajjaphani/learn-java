@@ -14,7 +14,8 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
 	- [Synchronization](#synchronization)
-- [Object Design](#object-design)
+	- [ReentrantLock](#locks)
+- [Object Design](#objecdt-design)
 
 ## Some Examples
 
@@ -52,9 +53,15 @@ This [example](/src/org/learnjava/concurrent/Threads.java) shows the ways to cre
 
 ### Synchronization
 
-The Java programming language provides two basic [synchronization idioms](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html): synchronized methods and synchronized statements. 
+The Java language provides two basic [synchronization idioms](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html): synchronized methods and synchronized statements. 
 
 This [example](/src/org/learnjava/concurrent/SynchronizedCounterExample.java) synchronized method for sharing access to fields.
+
+### ReentrantLock
+
+Java [Lock](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Lock.html) API provides more visibility and options for locking. 
+
+This [example](/src/org/learnjava/concurrent/LockCounterExample.java) the usage of Lock API for impleneting a counter to be accessed through multiple threads.
 
 ## Object Design
 
