@@ -14,7 +14,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
 	- [Synchronization](#synchronization)
-	- [Reentrant Lock](#locks)
+	- [Locks](#locks)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -57,7 +57,7 @@ The Java language provides two basic [synchronization idioms](https://docs.oracl
 
 This [example](/src/org/learnjava/concurrent/SynchronizedCounterExample.java) synchronized method for sharing access to fields.
 
-### Reentrant Lock
+### Locks
 
 Java [Lock](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Lock.html) API provides more visibility and options for locking. 
 
