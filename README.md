@@ -12,6 +12,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 - [Java 7 Features](#java7-features)
 - [Java 8 Features](#java8-features)
 - [Concurrency](#concurrency)
+	- [Threads](#threads)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -40,7 +41,13 @@ To be filled
 
 ## Concurrency
 
-To be filled
+This section contains some examples of multi-threading in Java.
+
+### Threads
+
+A [thread](https://docs.oracle.com/javase/tutorial/essential/concurrency/runthread.html) is a thread of execution in a program.
+
+This [example](/src/org/learnjava/concurrent/Threads.java) shows the ways to creating and starting a thread.
 
 ## Object Design
 
