@@ -21,6 +21,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Transfer Queue](#transfer-queue)
 	- [Synchronizers](#synchronizers)
 		- [Semaphore](#semaphore)
+		- [Count Down Latch](#count-down-latch)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -103,13 +104,18 @@ Java provides five classes for dealing with common special-purpose synchronizati
 
 This [example](/src/org/learnjava/concurrent/SemaphoreExample.java) demonstrates the use of Semaphores.
 
-#### CountDownLatch
+#### Count Down Latch
+
+[CountDownLatch](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CountDownLatch.html) is a synchronization aid that allows one or more threads to wait until a set of operations being performed in other threads completes.
+
+This [example](/src/org/learnjava/concurrent/CountDownLatchExample.java) demonstrates the use of CountDownLatch.
 
 #### CyclicBarrier
 
 #### Exchanger
 
 #### Phaser
+
 ## Object Design
 
 To be filled
