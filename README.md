@@ -13,6 +13,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 - [Java 8 Features](#java8-features)
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
+	- [Synchronization] (#synchronization)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -48,6 +49,12 @@ This section contains some examples of multi-threading in Java.
 A [thread](https://docs.oracle.com/javase/tutorial/essential/concurrency/runthread.html) is a thread of execution in a program.
 
 This [example](/src/org/learnjava/concurrent/Threads.java) shows the ways to creating and starting a thread.
+
+### Synchronization
+
+The Java programming language provides two basic [synchronization idioms](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html): synchronized methods and synchronized statements. 
+
+This [example](/src/org/learnjava/concurrent/SynchronizedCounterExample.java) synchronized method for sharing access to fields.
 
 ## Object Design
 
