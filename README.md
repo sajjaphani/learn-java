@@ -19,6 +19,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Uncaught Exception Handler](#uncaught-exception-handler)
 	- [Synchronous Queue](#synchronous-queue)
 	- [Transfer Queue](#transfer-queue)
+	- [Synchronizers](#synchronizers)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -90,6 +91,20 @@ This [example](/src/org/learnjava/concurrent/SynchronousQueueExample.java) uses 
 A [TransferQueue](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/TransferQueue.html) is a blocking queue in which producers may wait for consumers to consume elements.
 
 This [example](/src/org/learnjava/concurrent/TransferQueueExample.java) uses a transfer queue for solving producer consumer problem.
+
+### Synchronizers
+
+Java provides five classes for dealing with common special-purpose synchronization idioms. This section covers example of these synchronizers.
+
+#### Semaphore
+
+#### CountDownLatch
+
+#### CyclicBarrier
+
+#### Exchanger
+
+#### Phaser
 
 ## Object Design
 
