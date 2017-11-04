@@ -23,6 +23,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 		- [Semaphore](#semaphore)
 		- [Count Down Latch](#count-down-latch)
 		- [Cyclic Barrier](#cyclic-barrier)
+		- [Exchanger](#exchanger)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -118,6 +119,10 @@ This [example](/src/org/learnjava/concurrent/CountDownLatchExample.java) demonst
 This [example](/src/org/learnjava/concurrent/CyclicBarrierExample.java) demonstrates the use of CyclicBarrier.
 
 #### Exchanger
+
+[An Exchanger](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Exchanger.html) represents a synchronization point at which threads can pair and swap elements within pairs.. 
+
+This [example](/src/org/learnjava/concurrent/ExchangerExample.java) demonstrates the use of Exchanger.
 
 #### Phaser
 
