@@ -15,6 +15,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Threads](#threads)
 	- [Synchronization](#synchronization)
 	- [Locks](#locks)
+	- [Callable](#callable)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -55,13 +56,19 @@ This [example](/src/org/learnjava/concurrent/Threads.java) shows the ways to cre
 
 The Java language provides two basic [synchronization idioms](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html): synchronized methods and synchronized statements. 
 
-This [example](/src/org/learnjava/concurrent/SynchronizedCounterExample.java) synchronized method for sharing access to fields.
+This [example](/src/org/learnjava/concurrent/SynchronizedCounterExample.java) uses synchronized method for sharing access to fields.
 
 ### Locks
 
 Java [Lock](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Lock.html) API provides more visibility and options for locking. 
 
-This [example](/src/org/learnjava/concurrent/LockCounterExample.java) the usage of Lock API for impleneting a counter to be accessed through multiple threads.
+This [example](/src/org/learnjava/concurrent/LockCounterExample.java) shows the usage of Lock API for impleneting a counter to be accessed through multiple threads.
+
+### Callable
+
+A [Callable](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Callable.html) task can return a result and may throw an exception. 
+
+This [example](/src/org/learnjava/concurrent/CallableExample.java) contains the usage of Callable which returns a result upon completion.
 
 ## Object Design
 
