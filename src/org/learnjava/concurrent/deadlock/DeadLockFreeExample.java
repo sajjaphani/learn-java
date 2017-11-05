@@ -21,6 +21,12 @@ public class DeadLockFreeExample {
 		new Thread(new Task2(sharedResource1, sharedResource2)).start();
 	}
 
+	/**
+	 * First task.
+	 * 
+	 * @author psajja
+	 *
+	 */
 	static class Task1 implements Runnable {
 		private Object sharedResource1;
 		private Object sharedResource2;
@@ -47,6 +53,12 @@ public class DeadLockFreeExample {
 		}
 	}
 
+	/**
+	 * Second task.
+	 * 
+	 * @author psajja
+	 *
+	 */
 	static class Task2 implements Runnable {
 		private Object sharedResource1;
 		private Object sharedResource2;
