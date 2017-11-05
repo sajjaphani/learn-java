@@ -28,7 +28,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 		- [Exchanger](#exchanger)
 		- [Phaser](#phaser)
 	- [Ordered Execution](#ordered-execution)
-	- [Producer Consumer Problem](#producer-consumer)
+	- [Producer Consumer Problem](#producer-consumer-problem)
 	- [Fork/Join](#forkjoin)
 - [Object Design](#object-design)
 
