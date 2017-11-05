@@ -25,6 +25,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 		- [Cyclic Barrier](#cyclic-barrier)
 		- [Exchanger](#exchanger)
 		- [Phaser](#phaser)
+	- [Ordered Execution](#ordered-execution)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -130,6 +131,12 @@ This [example](/src/org/learnjava/concurrent/ExchangerExample.java) demonstrates
 Added in Java 7, [Phaser is](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Phaser.html) a reusable synchronization barrier, similar in functionality to CyclicBarrier and CountDownLatch but supporting more flexible usage.
 
 This [example](/src/org/learnjava/concurrent/PhaserExample.java) demonstrates the use of Phaser.
+
+### Ordered Execution
+
+Supporse you have situation where the class has three methods and each needs to be executed in a separate thread. The methods must fe executed in the given order. Thread A should call first thread B should call second, and thread C should call third.
+
+This [example](/src/org/learnjava/concurrent/OrderedExecutionExample.java) shows how to achieve the above using Semaphores.
 
 ## Object Design
 
