@@ -28,8 +28,8 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 		- [Exchanger](#exchanger)
 		- [Phaser](#phaser)
 	- [Ordered Execution](#ordered-execution)
-	- [Fork/Join](#fork-join)
-- [Object Design](#objecdt-design)
+	- [Fork/Join](#forkjoin)
+- [Object Design](#object-design)
 
 ## Some Examples
 
