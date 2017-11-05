@@ -24,6 +24,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 		- [Count Down Latch](#count-down-latch)
 		- [Cyclic Barrier](#cyclic-barrier)
 		- [Exchanger](#exchanger)
+		- [Phaser](#phaser)
 - [Object Design](#objecdt-design)
 
 ## Some Examples
@@ -125,6 +126,10 @@ This [example](/src/org/learnjava/concurrent/CyclicBarrierExample.java) demonstr
 This [example](/src/org/learnjava/concurrent/ExchangerExample.java) demonstrates the use of Exchanger.
 
 #### Phaser
+
+Added in Java 7, [Phaser is](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Phaser.html) a reusable synchronization barrier, similar in functionality to CyclicBarrier and CountDownLatch but supporting more flexible usage.
+
+This [example](/src/org/learnjava/concurrent/PhaserExample.java) demonstrates the use of Phaser.
 
 ## Object Design
 
