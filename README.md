@@ -28,6 +28,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 		- [Exchanger](#exchanger)
 		- [Phaser](#phaser)
 	- [Ordered Execution](#ordered-execution)
+	- [Producer Consumer Problem](#producer-consumer)
 	- [Fork/Join](#forkjoin)
 - [Object Design](#object-design)
 
@@ -154,6 +155,18 @@ This [example](/src/org/learnjava/concurrent/PhaserExample.java) demonstrates th
 Supporse you have situation where the class has three methods and each needs to be executed in a separate thread. The methods must fe executed in the given order. Thread A should call first thread B should call second, and thread C should call third.
 
 This [example](/src/org/learnjava/concurrent/OrderedExecutionExample.java) shows how to achieve the above using Semaphores.
+
+### Producer Consumer Problem
+
+The [producer–consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) (also known as the bounded-buffer problem) is a classic example of a multi-process synchronization problem. The problem describes two processes, the producer and the consumer, who share a common, fixed-size buffer used as a queue.
+
+This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerSynchronizedExample.java) demonstrates the use of synchornization(wait, notify/notifyall) to solve the problem.
+
+This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerBlockingQueueExample.java) solves the problem using [BlockingQueue](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html).
+
+This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerSemaphoreExample.java) solves the problem using [Semaphores](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Semaphore.html), where a single element custom Queue is implemented.
+
+This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerSemaphoreExample2.java) solves the problem using [Semaphores](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Semaphore.html), where a custom bounded Queue is implemented.
 
 ### Fork/Join
 
