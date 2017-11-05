@@ -14,6 +14,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
 	- [Synchronization](#synchronization)
+	- [Deadlocks](#deadlocks)
 	- [Locks](#locks)
 	- [Callable](#callable)
 	- [Uncaught Exception Handler](#uncaught-exception-handler)
@@ -67,6 +68,14 @@ This [example](/src/org/learnjava/concurrent/Threads.java) shows the ways to cre
 The Java language provides two basic [synchronization idioms](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html): synchronized methods and synchronized statements. 
 
 This [example](/src/org/learnjava/concurrent/SynchronizedCounterExample.java) uses synchronized method for sharing access to fields.
+
+### Deadlocks
+
+[Deadlock](https://docs.oracle.com/javase/tutorial/essential/concurrency/deadlock.html) describes a situation where two or more threads are blocked forever, waiting for each other.
+
+This [example](/src/org/learnjava/concurrent/deadlock/DeadLockExample.java) demonstrates the occurence of a deadlock.
+
+This [example](/src/org/learnjava/concurrent/deadlock/DeadLockFreeExample.java) modifies the above one to eliminate the deadlock.
 
 ### Locks
 
