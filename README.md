@@ -16,6 +16,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Synchronization](#synchronization)
 	- [Deadlocks](#deadlocks)
 	- [Locks](#locks)
+	- [Dining Philosophers Problem](#dining-philosophers-problem)
 	- [Callable](#callable)
 	- [Uncaught Exception Handler](#uncaught-exception-handler)
 	- [Synchronous Queue](#synchronous-queue)
@@ -82,6 +83,12 @@ This [example](/src/org/learnjava/concurrent/deadlock/DeadLockFreeExample.java) 
 Java [Lock](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Lock.html) API provides more visibility and options for locking. 
 
 This [example](/src/org/learnjava/concurrent/LockCounterExample.java) shows the usage of Lock API for impleneting a counter to be accessed through multiple threads.
+
+### Dining Philosophers Problem
+
+The [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) was designed to illustrate the challenges of avoiding deadlock, a system state in which no progress is possible.
+
+This [example](/src/org/learnjava/concurrent/dinning/DiningPhilosophersExample.java) provides a solution to the dining philosophers problem with the help of [Fork](/src/org/learnjava/concurrent/dinning/Fork.java) and [Philosopher](/src/org/learnjava/concurrent/dinning/Philosopher.java) classes simulating the problem without result into a dead lock situation.
 
 ### Callable
 
