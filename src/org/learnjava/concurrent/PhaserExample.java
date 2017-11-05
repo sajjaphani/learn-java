@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Phaser;
 
 /**
- * Added in Java 7, A Phaser is a reusable synchronization barrier, similar in
+ * Added in Java 7, Phaser is a reusable synchronization barrier, similar in
  * functionality to CyclicBarrier and CountDownLatch but supporting more
  * flexible usage.
  * 
