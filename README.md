@@ -162,7 +162,7 @@ This [example](/src/org/learnjava/concurrent/OrderedExecutionExample.java) shows
 
 ### Producer Consumer Problem
 
-The [producer–consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) (also known as the bounded-buffer problem) is a classic example of a multi-process synchronization problem. The problem describes two processes, the producer and the consumer, who share a common, fixed-size buffer used as a queue.
+The [producer-consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) (also known as the bounded-buffer problem) is a classic example of a multi-process synchronization problem. The problem describes two processes, the producer and the consumer, who share a common, fixed-size buffer used as a queue.
 
 This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerSynchronizedExample.java) demonstrates the use of synchronization(wait, notify/notifyAll) to solve the problem.
 
