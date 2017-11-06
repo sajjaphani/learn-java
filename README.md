@@ -76,7 +76,7 @@ This [example](/src/org/learnjava/concurrent/SynchronizedCounterExample.java) us
 
 [Deadlock](https://docs.oracle.com/javase/tutorial/essential/concurrency/deadlock.html) describes a situation where two or more threads are blocked forever, waiting for each other.
 
-This [example](/src/org/learnjava/concurrent/deadlock/DeadLockExample.java) demonstrates the occurence of a deadlock.
+This [example](/src/org/learnjava/concurrent/deadlock/DeadLockExample.java) demonstrates the occurrence of a deadlock.
 
 This [example](/src/org/learnjava/concurrent/deadlock/DeadLockFreeExample.java) modifies the above one to eliminate the deadlock.
 
@@ -84,7 +84,11 @@ This [example](/src/org/learnjava/concurrent/deadlock/DeadLockFreeExample.java) 
 
 Java [Lock](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Lock.html) API provides more visibility and options for locking. 
 
-This [example](/src/org/learnjava/concurrent/LockCounterExample.java) shows the usage of Lock API for impleneting a counter to be accessed through multiple threads.
+This [example](/src/org/learnjava/concurrent/LockCounterExample.java) shows the usage of Lock API for implementing a counter to be accessed through multiple threads.
+
+[Condition](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/Condition.html) separates the Object monitor methods (wait, notify and notifyAll) into distinct objects and combines them with the use of arbitrary Lock implementations to achieve the effect of having multiple wait-sets per object. A Lock replaces the use of synchronized methods and statements, a Condition replaces the use of the Object monitor methods.
+
+This [example](/src/org/learnjava/concurrent/LockConditionExample.java) shows the usage of Lock with Condition to implement bounded buffer counter which can be used to solve a producer consume problem.
 
 ### Dining Philosophers Problem
 
@@ -152,7 +156,7 @@ This [example](/src/org/learnjava/concurrent/PhaserExample.java) demonstrates th
 
 ### Ordered Execution
 
-Supporse you have situation where the class has three methods and each needs to be executed in a separate thread. The methods must fe executed in the given order. Thread A should call first thread B should call second, and thread C should call third.
+Suppose you have situation where the class has three methods and each needs to be executed in a separate thread. The methods must be executed in the given order. Thread A should call first thread B should call second, and thread C should call third.
 
 This [example](/src/org/learnjava/concurrent/OrderedExecutionExample.java) shows how to achieve the above using Semaphores.
 
@@ -160,7 +164,7 @@ This [example](/src/org/learnjava/concurrent/OrderedExecutionExample.java) shows
 
 The [producer–consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) (also known as the bounded-buffer problem) is a classic example of a multi-process synchronization problem. The problem describes two processes, the producer and the consumer, who share a common, fixed-size buffer used as a queue.
 
-This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerSynchronizedExample.java) demonstrates the use of synchornization(wait, notify/notifyall) to solve the problem.
+This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerSynchronizedExample.java) demonstrates the use of synchronization(wait, notify/notifyAll) to solve the problem.
 
 This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerBlockingQueueExample.java) solves the problem using [BlockingQueue](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html).
 
