@@ -58,7 +58,7 @@ To be filled
 
 ## Concurrency
 
-This section contains some examples of multi-threading in Java.
+This section contains some examples of multi-threading in Java. The [document](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/package-summary.html) from Javadoc provides good starting point with a brief descriptions of the main components.
 
 ### Threads
 
