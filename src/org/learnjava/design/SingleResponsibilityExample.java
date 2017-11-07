@@ -8,17 +8,17 @@ package org.learnjava.design;
  * Every responsibility of a class is an area of potential change. More than one
  * responsibility means more than one area of change. This principle states that
  * if we have more reasons to change for a class, we have to split the
- * functionality in separate classes. Each class will handle only one
+ * functionality in to separate classes. Each class will handle only one
  * responsibility and on future if we need to make one change we are going to
  * make it in the class which handle it.
  * </p>
  * <p>
- * Cohesion is a term you'll hear used as a measure of how closely a class or a
- * module supports a single purpose or responsibility. We say that a module or
- * class has high cohesion when it is designed around a set of related
- * functions, and we say it has low cohesion when it is designed around a set of
- * unrelated functions. Cohesion is a more general concept than the Single
- * Responsibility Principle, but the two are closely related.
+ * Cohesion is a term used as a measure of how closely a class or a module
+ * supports a single purpose or responsibility. We say that a module or class
+ * has high cohesion when it is designed around a set of related functions, and
+ * we say it has low cohesion when it is designed around a set of unrelated
+ * functions. Cohesion is a more general concept than the Single Responsibility
+ * Principle, but the two are closely related.
  * </p>
  * 
  * @author psajja

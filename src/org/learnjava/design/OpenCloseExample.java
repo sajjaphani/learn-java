@@ -29,15 +29,15 @@ public class OpenCloseExample {
 	 *********************************************************************************/
 	/**
 	 * This class takes care of drawing different shapes. We need to modify this
-	 * class to support a different shape.
+	 * class to support brand new shape.
 	 * 
 	 */
 	static class GraphicEditorBad {
-		public void drawShape(ShapeBad s) {
-			if (s.type == 1)
-				drawRectangle((RectangleBad) s);
-			else if (s.type == 2)
-				drawCircle((CircleBad) s);
+		public void drawShape(ShapeBad shape) {
+			if (shape.type == 1)
+				drawRectangle((RectangleBad) shape);
+			else if (shape.type == 2)
+				drawCircle((CircleBad) shape);
 		}
 
 		private void drawRectangle(RectangleBad r) {

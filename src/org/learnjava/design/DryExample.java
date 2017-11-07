@@ -39,8 +39,8 @@ public class DryExample {
 
 	/**
 	 * This is an automatic door once it opened it closes automatically after 5
-	 * seconds.
-	 * 
+	 * seconds. Door opening can be done when the remove is pressed or a dog
+	 * bark is recognized. Having this in this class is the correct place.
 	 *
 	 */
 	static class DogDoor {
@@ -100,7 +100,7 @@ public class DryExample {
 		}
 
 		public void recognize(String bark) {
-			System.out.println("   BarkRecognizer: Heard a '" + bark + "'");
+			System.out.println("BarkRecognizer: Heard a '" + bark + "'");
 			door.open();
 		}
 	}

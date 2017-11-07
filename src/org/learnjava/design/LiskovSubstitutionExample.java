@@ -20,9 +20,9 @@ package org.learnjava.design;
  * derived objects must not expect such users to obey preconditions that are
  * stronger then those required by the base class. That is, they must accept
  * anything that the base class could accept. Also, derived classes must conform
- * to all the postconditions of the base. That is, their behaviors and outputs
- * must not violate any of the constraints established for the base class. Users
- * of the base class must not be confused by the output of the derived class.
+ * to all the postconditions of the base. Their behaviors and outputs must not
+ * violate any of the constraints established for the base class. Users of the
+ * base class must not be confused by the output of the derived class.
  * </p>
  * 
  * @author psajja
@@ -114,7 +114,6 @@ public class LiskovSubstitutionExample {
 	 *********************************************************************************/
 	/*
 	 * 1. First solution to the problem is to remove the inheritance relationship. 
-	 * 2. Have a base Shape interface, which defines only the contract. 
-	 * 		Then Rectangle and Square are the concrete classes of the Shape interface.
+	 * 2. Have a base Shape interface, which defines only the contract. Then Rectangle and Square are the concrete classes of the Shape interface.
 	 */
 }

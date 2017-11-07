@@ -29,7 +29,7 @@ public class InterfaceSegregationExample {
 		System.out.println("Print Nothing.");
 		Timer time = new Timer();
 		TimedDoor door = new TimedDoor();
-		time.Regsiter(0, door);
+		time.Regsiter(100, door);
 	}
 
 	/**
@@ -42,7 +42,7 @@ public class InterfaceSegregationExample {
 
 		void unlock();
 
-		boolean isDoorOpen();
+		boolean isOpen();
 	}
 
 	/**
@@ -80,7 +80,7 @@ public class InterfaceSegregationExample {
 		}
 
 		@Override
-		public boolean isDoorOpen() {
+		public boolean isOpen() {
 			return false;
 		}
 	}
@@ -107,7 +107,7 @@ public class InterfaceSegregationExample {
 		}
 
 		@Override
-		public boolean isDoorOpen() {
+		public boolean isOpen() {
 			return false;
 		}
 	}

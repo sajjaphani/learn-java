@@ -85,7 +85,7 @@ public class HollywoodPrincipleExample {
 	}
 
 	/**
-	 * A tea.
+	 * A lemon tea.
 	 * 
 	 * The 'brew' and 'addCnidemts' are the methods we need to implement to
 	 * "fill out" the template method.
