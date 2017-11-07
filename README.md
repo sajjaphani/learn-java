@@ -192,19 +192,19 @@ An object contains state (data) and behaviour (methods to manipulate data). The 
 
 [Design principles](http://www.oodesign.com/design-principles.html) represent a set of guidelines that helps us to avoid having a bad design. This section present some principles with the examples. The first five of these principles are known as SOLID principles and are associated to [Robert Martin](https://www.amazon.in/Principles-Patterns-Practices-Robert-Martin/dp/0131857258). These five principles are principles of class design, focus very tightly on dependency management.
 
-Single Responsibility Principle	- A class should have one, and only one, reason to change. This [example](/src/org/learnjava/design/SingleResponsibilityExample.java) shows how to decompose a class into multiple classes which handle a single responsibility upon decomposition.
+**Single Responsibility Principle**	- A class should have one, and only one, reason to change. This [example](/src/org/learnjava/design/SingleResponsibilityExample.java) shows how to decompose a class into multiple classes which handle a single responsibility upon decomposition.
 
-Open Closed Principle - You should be able to extend a classes behavior, without modifying it. This [example](/src/org/learnjava/design/OpenCloseExample.java) shows how to achieve open closed principle. It also delegates the responsibily to the corresponding object as the object knows to how to deal with its state.
+**Open Closed Principle** - You should be able to extend a classes behavior, without modifying it. This [example](/src/org/learnjava/design/OpenCloseExample.java) shows how to achieve open closed principle. It also delegates the responsibily to the corresponding object as the object knows to how to deal with its state.
 
-Liskov Substitution Principle -	Derived classes must be substitutable for their base classes. This [example](/src/org/learnjava/design/LiskovSubstitutionExample.java) shows how improperly extending a class violates the Liskov Substitution Principle.
+**Liskov Substitution Principle** -	Derived classes must be substitutable for their base classes. This [example](/src/org/learnjava/design/LiskovSubstitutionExample.java) shows how improperly extending a class violates the Liskov Substitution Principle.
 
-Interface Segregation Principle - Make fine grained interfaces that are client specific. This [example](/src/org/learnjava/design/InterfaceSegregationExample.java) talks about interface segregation principle with the help of multiple interfaces that are client specific.
+**Interface Segregation Principle** - Make fine grained interfaces that are client specific. This [example](/src/org/learnjava/design/InterfaceSegregationExample.java) talks about interface segregation principle with the help of multiple interfaces that are client specific.
 
-Dependency Inversion Principle - Depend upon abstractions. Do not depend upon concrete classes. This [example](/src/org/learnjava/design/DependencyInversionExample.java) shows how we can reuse the components if we depend upon abstractions rather than implementaion details
+**Dependency Inversion Principle** - Depend upon abstractions. Do not depend upon concrete classes. This [example](/src/org/learnjava/design/DependencyInversionExample.java) shows how we can reuse the components if we depend upon abstractions rather than implementaion details
 
-DRY - Don't repeat yourself. Dry talks about having each feature is implemented exactly one place where it exits. This [example](/src/org/learnjava/design/DryExample.java) shows DRY principle by placing the functionality in a common sensible place where it beongs.
+**DRY - Don't repeat yourself** - Dry talks about having each feature is implemented exactly one place where it exits. This [example](/src/org/learnjava/design/DryExample.java) shows DRY principle by placing the functionality in a common sensible place where it beongs.
 
-The Hollywood Principle - Don’t call us, we’ll call you. This [example](/src/org/learnjava/design/HollywoodPrincipleExample.java) shows the use of Hollywood principle, which is pretty much similar to Template Method pattern.
+**The Hollywood Principle** - Don't call us, we'll call you. This [example](/src/org/learnjava/design/HollywoodPrincipleExample.java) shows the use of Hollywood principle, which is pretty much similar to Template Method pattern.
 
 ## References
 
