@@ -14,7 +14,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Numeric Literals](#numeric-literals)
 	- [Strings in Switch](#strings-in-switch)
 	- [Try With Resources](#try-with-resources)
-	- [Catch Multiple Exception Types](#multi-catch)
+	- [Catch Multiple Exception Types](#catch-multiple-exception-types)
 - [Java 8 Features](#java8-features)
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
