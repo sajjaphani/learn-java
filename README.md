@@ -199,6 +199,8 @@ This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerSe
 
 This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerSemaphoreExample2.java) solves the problem using [Semaphores](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Semaphore.html), where a custom bounded Queue is implemented.
 
+This [example](/src/org/learnjava/concurrent/producerconsumer/ProducerConsumerVolatileExample.java) solves the problem with the help of volatile modifier, where a single element custom Queue is implemented.
+
 ### Fork/Join
 
 The [fork/join framework](https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html) is an implementation of the [ExecutorService](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ExecutorService.html) helps you take advantage of multiple processors. It is designed for work that can be broken into smaller pieces recursively. The goal is to use all the available processing power to enhance the performance of your application.
