@@ -24,10 +24,10 @@ public class ProducerConsumerVolatileExample {
 	static class Queue<E> {
 
 		private E elt = null;
-		private volatile boolean hasNewObject;
+		private volatile boolean hasElement;
 
 		public void add(E elt) {
-			while (hasNewObject) {
+			while (hasElement) {
 				try {
 					Thread.sleep(100);
 				} catch (InterruptedException e) {
@@ -35,18 +35,18 @@ public class ProducerConsumerVolatileExample {
 				}
 			}
 			this.elt = elt;
-			hasNewObject = true;
+			hasElement = true;
 		}
 
-		public Object remove() {
-			while (!hasNewObject) {
+		public E remove() {
+			while (!hasElement) {
 				try {
 					Thread.sleep(100);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
 			}
-			hasNewObject = false;
+			hasElement = false;
 			
 			return elt;
 		}
