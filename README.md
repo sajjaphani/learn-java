@@ -10,6 +10,11 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Binary Heap](#binary-heap)
 	- [Bit Manipulation](#bit-manipulation)
 - [Java 7 Features](#java7-features)
+	- [Binary Literals](#binary-literals)
+	- [Numeric Literals](#numeric-literals)
+	- [Strings in Switch](#strings-in-switch)
+	- [Try With Resources](#try-with-resources)
+	- [Catch Multiple Exception Types](#multi-catch)
 - [Java 8 Features](#java8-features)
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
@@ -52,7 +57,27 @@ See [Bit Manipulation Example](/src/org/learnjava/BitManipulationExample.java) f
 	
 ## Java 7 Features
 
-To be filled
+There are a number of enhancements added to [Java 7](https://docs.oracle.com/javase/7/docs/technotes/guides/language/enhancements.html). This section presents few examples of the same.
+
+### Binary Literals
+
+In Java SE 7, the integral types (byte, short, int, and long) can also be expressed using the [binary number system](https://docs.oracle.com/javase/7/docs/technotes/guides/language/binary-literals.html). This [example](/src/org/learnjava/j7/BinaryLiteralExample.java) shows the use of binary literals in Java 7 or later.
+
+### Numeric Literals
+
+From Java 7, any number of underscore characters (_) can appear anywhere between digits in a [numerical literal](https://docs.oracle.com/javase/7/docs/technotes/guides/language/underscores-literals.html). This allows to separate groups of digits in numeric literals, which can improve the readability of code. This [example](/src/org/learnjava/j7/NumericLiteralExample.java) shows the use of binary literals in Java 7 or later.
+
+### Strings in Switch
+
+From Java 7, we can use strings in [switch statement expression](https://docs.oracle.com/javase/7/docs/technotes/guides/language/strings-switch.html). This [example](/src/org/learnjava/j7/SwitchExample.java) shows the use of strings in switch statement in Java 7 or later. 
+
+### Try With Resources
+
+A resource must be closed after the program is finished with it. The [try-with-resources statement](https://docs.oracle.com/javase/7/docs/technotes/guides/language/try-with-resources.html) ensures that each resource is closed at the end of the statement. This [example](/src/org/learnjava/j7/TryWithResourceExample.java) shows the use of try with resources. 
+
+### Catch Multiple Exception Types
+
+From Java 7, a single catch block can handle more than one type of exception. [This feature](https://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html) can reduce code duplication and lessen the temptation to catch an overly broad exception and further enhances the readability of code. This [example](/src/org/learnjava/j7/MultiCatchExample.java) shows the use of multi-catch. 
 
 ## Java 8 Features
 

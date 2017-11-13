@@ -65,6 +65,7 @@ public class TryWithResourceExample {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
+		// TODO create the corresponding file before running.
 		System.out.println(readFirstLineFromFilePreJava7("not-exists.txt"));
 		System.out.println(readFirstLineFromFileJava7("not-exists.txt"));
 	}

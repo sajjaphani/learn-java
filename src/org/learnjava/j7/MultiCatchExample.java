@@ -14,7 +14,6 @@ import java.sql.Statement;
  * exception. This feature can reduce code duplication and lessen the temptation
  * to catch an overly broad exception.
  * 
- * 
  * @author psajja
  *
  */
@@ -101,6 +100,7 @@ public class MultiCatchExample {
 	 * @throws Exception 
 	 */
 	public static void main(String[] args) throws Exception {
+		// TODO create the corresponding file before running
 		executeSqlStatementPreJava7("not-exists.txt", "sql-query");
 		executeSqlStatementJava7("not-exists.txt", "sql-query");
 		
