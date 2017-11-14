@@ -18,6 +18,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 - [Java 8 Features](#java-8-features)
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
+	- [Busy Spinning](#busy-spinning)
 	- [Synchronization](#synchronization)
 	- [Deadlocks](#deadlocks)
 	- [Locks](#locks)
@@ -92,6 +93,10 @@ This section contains some examples of multi-threading in Java. The [document](h
 A [thread](https://docs.oracle.com/javase/tutorial/essential/concurrency/runthread.html) is a thread of execution in a program.
 
 This [example](/src/org/learnjava/concurrent/Threads.java) shows the ways to creating and starting a thread.
+
+### Busy Spinning
+
+Busy spinning/waiting is a technique where one thread waits for a result from another thread and use an empty loop to wait for that result. This [example](/src/org/learnjava/concurrent/BusySpinningExample.java) shows how to busy wait for a condition. This is not a recommended approach, use other synchronization mechanisms for thread communiatioin.
 
 ### Synchronization
 
