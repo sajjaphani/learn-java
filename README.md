@@ -7,6 +7,8 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 ## Table of Contents
 
 - [Some Examples](#some-examples)
+	- [Fail Fast and Fail Safe Iterator](fail-fast-and-fail-safe-iterator)
+	- [External and Internal Iteration](#external-and-internal-teration)
 	- [Binary Heap](#binary-heap)
 	- [Bit Manipulation](#bit-manipulation)
 - [Java 7 Features](#java-7-features)
@@ -16,6 +18,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Try With Resources](#try-with-resources)
 	- [Catch Multiple Exception Types](#catch-multiple-exception-types)
 - [Java 8 Features](#java-8-features)
+	- [Iteration](#iteration)
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
 	- [Busy Spinning](#busy-spinning)
@@ -43,6 +46,14 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 ## Some Examples
 
 This section contains few examples.
+
+### Fail Fast and Fail Safe Iterator
+
+Fail-fast iterators will throw a ConcurrentModificationException if the collection is structurally modified at any time after the iterator is created, with the exception of through the iterator's own remove or add methods. Fail-safe (Weakly-consistent, technically correct term), does not throw a ConcurrentModificationException if any collection is structurally modified after the iterator is created. See this [example](/src/org/learnjava/FailFastAndFailSafeIteratorExample.java) for more details. 
+
+### External and Internal Iteration
+
+From Java 8, we can also use internal iteration added to collections. See [Iteration](#iteration) in Java 8 Features section.
 
 ### Binary Heap
 
@@ -82,7 +93,9 @@ From Java 7, a single catch block can handle more than one type of exception. [T
 
 ## Java 8 Features
 
-To be filled
+### Iteration
+
+With the addition of functional interfaces in Java 8, we can iterate the collection elements through external iteration, where the clients can focus on what to do with the elements rather than controlling the iteration. This [example](/src/org/learnjava/j8/IteratorExample.java) shows the use of internal iteration and external iteration. 
 
 ## Concurrency
 
