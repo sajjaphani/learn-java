@@ -7,8 +7,8 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 ## Table of Contents
 
 - [Some Examples](#some-examples)
-	- [Fail Fast and Fail Safe Iterator](fail-fast-and-fail-safe-iterator)
-	- [External and Internal Iteration](#external-and-internal-teration)
+	- [Fail Fast and Fail Safe Iterator](#fail-fast-and-fail-safe-iterator)
+	- [External and Internal Iteration](#external-and-internal-iteration)
 	- [Binary Heap](#binary-heap)
 	- [Bit Manipulation](#bit-manipulation)
 - [Java 7 Features](#java-7-features)
