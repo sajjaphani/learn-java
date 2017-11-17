@@ -9,6 +9,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 - [Some Examples](#some-examples)
 	- [Fail Fast and Fail Safe Iterator](#fail-fast-and-fail-safe-iterator)
 	- [External and Internal Iteration](#external-and-internal-iteration)
+	- [Object Ordering](#object-ordering)
 	- [Binary Heap](#binary-heap)
 	- [Bit Manipulation](#bit-manipulation)
 - [Java 7 Features](#java-7-features)
@@ -54,6 +55,10 @@ Fail-fast iterators will throw a ConcurrentModificationException if the collecti
 ### External and Internal Iteration
 
 From Java 8, we can also use internal iteration added to collections. See [Iteration](#iteration) in Java 8 Features section.
+
+### Object Ordering
+
+[Object Ordering](https://docs.oracle.com/javase/tutorial/collections/interfaces/order.html) privides a way to arrange the items in a particular order from an array or a collection. Java provides two interfaces [Comparable](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) and [Comparator](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html) for ordering the objects. This [example](/src/org/learnjava/ComparableExample.java) shows the use of Comparable to provide natural ordering to the objects. This [example](/src/org/learnjava/ComparatorExample.java) shows the use of Comparator to order the objects that otherwise not possible with natural ordering.
 
 ### Binary Heap
 
