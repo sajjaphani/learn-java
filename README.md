@@ -29,6 +29,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Dining Philosophers Problem](#dining-philosophers-problem)
 	- [Callable](#callable)
 	- [Uncaught Exception Handler](#uncaught-exception-handler)
+	- [Shutdown Hooks](#shutdown-hooks)
 	- [Synchronous Queue](#synchronous-queue)
 	- [Transfer Queue](#transfer-queue)
 	- [Synchronizers](#synchronizers)
@@ -157,6 +158,10 @@ This [example](/src/org/learnjava/concurrent/CallableExample.java) contains the 
 An [UncaughtExceptionHandler](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.UncaughtExceptionHandler.html) can be configured to be invoked when a Thread abruptly terminates due to an uncaught exception.
 
 This [example](/src/org/learnjava/concurrent/UncaughtExceptionHandlerTest.java) describes different ways to configure the uncaught exception handler.
+
+### Shutdown Hooks
+
+Shutdown hooks allows developers to plug in a piece of code to be executed when the JVM is shutting down. This [example](/src/org/learnjava/ShutdownHookExample.java) shows the configuration of a shutdown hook. [Design of the Shutdown Hooks API](https://docs.oracle.com/javase/1.5.0/docs/guide/lang/hook-design.html) provides details regarding design decisions of the Java Shutdown Hooks API
 
 ### Synchronous Queue
 
