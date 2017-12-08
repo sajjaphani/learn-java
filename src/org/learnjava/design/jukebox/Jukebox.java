@@ -14,17 +14,17 @@ public class Jukebox {
 	protected Set<Album> albums;
 	protected Set<Playlist> playlists;
 
-	protected User user;
+	protected UserManager userManager;
 
-	public Jukebox(MusicPlayer player, Set<Album> albums, Set<Playlist> playlists, User user) {
+	public Jukebox(MusicPlayer player, Set<Album> albums, Set<Playlist> playlists, UserManager userManager) {
 		this.player = player;
 		this.albums = albums;
 		this.playlists = playlists;
-		this.user = user;
+		this.userManager = userManager;
 	}
 
-	public void setUser(User user) {
-		this.user = user;
+	public void addUser(User user) {
+		this.userManager.addUser(user);
 	}
 
 	/**
