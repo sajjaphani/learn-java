@@ -1,21 +1,27 @@
-package org.learnjava.design.jukebox;
+package org.learnjava.design.ebooks;
 
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Handles user management.
+ * 
+ * @author psajja
+ *
+ */
 public class UserManager {
 	private Map<String, User> users;
 
 	public UserManager() {
 		users = new HashMap<>();
 	}
-	
+
 	public void addUser(User user) {
 		users.put(user.getId(), user);
 	}
 
-	public User remove(User user) {
-		return remove(user.getId());
+	public User remove(User u) {
+		return remove(u.getId());
 	}
 
 	public User remove(String id) {
