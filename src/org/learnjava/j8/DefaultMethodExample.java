@@ -11,7 +11,9 @@ package org.learnjava.j8;
  * In Java 8, we can also have static methods inside an interface.
  * </p>
  * 
- * @see <a href="https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html">Default Methods</a>
+ * @see <a href=
+ *      "https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html">
+ *      Default Methods</a>
  * 
  * @author psajja
  *
@@ -40,8 +42,8 @@ public class DefaultMethodExample {
 	 * method as shown in the toJsonString method.
 	 * <p>
 	 * Note: There are other mechanisms to get the Json representation of the
-	 * date (e.g, a utility method), the sole purpose of this default method
-	 * is to demonstrate the use of default methods.
+	 * date (e.g, a utility method), the sole purpose of this default method is
+	 * to demonstrate the use of default methods.
 	 * </p>
 	 * 
 	 * @author psajja
@@ -71,7 +73,7 @@ public class DefaultMethodExample {
 	}
 
 	/**
-	 * A sample concreate implementation of the date interface.
+	 * A sample concrete implementation of the date interface.
 	 * 
 	 * @author psajja
 	 *

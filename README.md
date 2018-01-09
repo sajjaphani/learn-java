@@ -19,6 +19,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 	- [Try With Resources](#try-with-resources)
 	- [Catch Multiple Exception Types](#catch-multiple-exception-types)
 - [Java 8 Features](#java-8-features)
+	- [Default Methods](#default-methods)
 	- [Iteration](#iteration)
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
@@ -98,6 +99,12 @@ A resource must be closed after the program is finished with it. The [try-with-r
 From Java 7, a single catch block can handle more than one type of exception. [This feature](https://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html) can reduce code duplication and lessen the temptation to catch an overly broad exception and further enhances the readability of code. This [example](/src/org/learnjava/j7/MultiCatchExample.java) shows the use of multi-catch. 
 
 ## Java 8 Features
+
+There are a number of enhancements added to [Java 8](https://docs.oracle.com/javase/8/docs/technotes/guides/language/enhancements.html). This section presents few examples of the same.
+
+### Default Methods
+
+[Default methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html) in Java 8 allows developers to add new methods to existing interfaces without breaking the existing implementations. Default methods allows to extend existing interfaces in a backward compatible way. Further the implementing classes can choose to override the default implementation provided by the interface. This [example](/src/org/learnjava/j8/DefaultMethodExample.java) shows the use of default methods in Java 8. 
 
 ### Iteration
 
