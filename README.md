@@ -21,6 +21,7 @@ Below table of contents can be used to quickly navigate to the examples.<br>
 - [Java 8 Features](#java-8-features)
 	- [Default Methods](#default-methods)
 	- [Iteration](#iteration)
+	- [Functional Interfaces](#functional-interfaces)
 - [Concurrency](#concurrency)
 	- [Threads](#threads)
 	- [Busy Spinning](#busy-spinning)
@@ -109,6 +110,10 @@ There are a number of enhancements added to [Java 8](https://docs.oracle.com/jav
 ### Iteration
 
 With the addition of functional interfaces in Java 8, we can iterate the collection elements through external iteration, where the clients can focus on what to do with the elements rather than controlling the iteration. This [example](/src/org/learnjava/j8/IteratorExample.java) shows the use of internal iteration and external iteration. 
+
+### Functional Interfaces
+
+In Java 8, functions became first class citizens. We can take functions as arguments of other functions, return functions and store functions as objects. [Functional interfaces](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html) provide target types for lambda expressions and method references. Each functional interface has a single abstract method, called the functional method for that functional interface, to which the lambda expression's parameter and return types are matched or adapted. This [example](/src/org/learnjava/j8/FunctionalInterfaceExample.java) shows the basic use of functions in Java 8. 
 
 ## Concurrency
 
